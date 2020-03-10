@@ -1,0 +1,16 @@
+{
+  "window.zoomLevel": 2,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.minimap.enabled": false,
+  "[javascript]": {},
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.acceptSuggestionOnEnter": "off"
+}
