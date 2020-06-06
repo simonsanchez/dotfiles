@@ -6,18 +6,25 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="simon"
 
-plugins=(git)
-
 source $ZSH/oh-my-zsh.sh
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
 alias zconfig="code ~/.zshrc"
 alias zreload="source ~/.zshrc"
+
+# Git aliases
+alias gnb="git --no-pager branch"
+alias gbD="git branch -D"
+alias gd="git diff"
+alias gds="git diff --staged"
+alias glg="git log --stat"
+alias glgg="git log --graph"
+alias gsw="git switch"
+alias gswc="git switch -c"
+alias gpsup="git push --set-upstream origin $(git_current_branch)"
+alias gstl="git stash list"
+alias gst="git status"
+alias gcan="git commit --amend --no-edit"
+alias mine="git log --author='Simon Sanchez'"
 
 ## Key bindings w/ iTerm2 on Mac OS
 bindkey "[D" backward-word
