@@ -1,13 +1,16 @@
 {
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "window.zoomLevel": 2,
+  "editor.acceptSuggestionOnEnter": "off",
   "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
-  "diffEditor.ignoreTrimWhitespace": false,
   "files.trimTrailingWhitespace": true,
-  "editor.minimap.enabled": false,
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "editor.acceptSuggestionOnEnter": "off"
+  "window.newWindowDimensions": "maximized",
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Night Owl (No Italics)"
 }
