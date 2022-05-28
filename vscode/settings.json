@@ -1,16 +1,54 @@
 {
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.formatOnSave": true,
-  "editor.insertSpaces": true,
-  "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
+  "editor.inlineSuggest.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "gitlens.liveshare.allowGuestAccess": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "window.newWindowDimensions": "maximized",
-  "window.zoomLevel": 2,
-  "workbench.colorTheme": "Night Owl (No Italics)"
+  "workbench.colorTheme": "GitHub Light",
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [";", ";"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "[ruby]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.useLanguageServer": true,
+  "go.buildOnSave": "off",
+  "go.languageServerExperimentalFeatures": {
+    "diagnostics": false
+  }
 }
