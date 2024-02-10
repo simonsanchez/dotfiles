@@ -1,0 +1,8 @@
+eamodio.gitlens
+github.codespaces
+github.copilot
+github.copilot-chat
+golang.go
+ms-vscode-remote.remote-containers
+sdras.night-owl
+vscodevim.vim
